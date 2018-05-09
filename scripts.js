@@ -18,3 +18,18 @@ var doSomethingAnimation = function(){
 //when the button is clicked, do the function
 animationButton.addEventListener("click", doSomethingAnimation);
 
+
+//MOVIE BUTTON
+var movieButton = document.getElementById("movie");
+var doSomethingMovie = function () {
+	document.location.href = "https://alexmarkova.github.io/movie/";
+}
+movieButton.addEventListener("click", doSomethingMovie);
+
+// SOUND BUTTON
+
+// COMIC
+
+// VIDEO
+
+// ANIMATION
