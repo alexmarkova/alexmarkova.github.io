@@ -1,0 +1,137 @@
+/* Alex's commlab webpage */
+
+html,body{
+font-family: 'Just Me Again Down Here', cursive;
+	font-size:10px;
+  background-color: rgb(247, 243, 219);
+     background-image: url("paper.jpg");
+}
+
+p{
+  color: white;
+font-family: 'Just Me Again Down Here', cursive;
+  display: block;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 27px;
+  margin-top: 50px;
+}
+
+button { 
+  float: left;
+font-family: 'Just Me Again Down Here', cursive;
+	font-size: 22px;
+	width: 16.667%;
+  background-color: rgb(161, 85, 71); 
+  border: none;
+  padding: 12px 12px;
+  text-align: center;
+  text-decoration: none;
+  margin: 0px;
+  -webkit-transition-duration: 0.4s; /* hover */
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.welcome-container {
+	width:100%;
+  background-color: rgb(213, 143, 118);
+}
+
+.welcome {
+  background-color: rgb(196, 100, 76);
+	font-size: 30px;
+font-family: 'Just Me Again Down Here', cursive;
+	color: white;
+	padding: 20px 20px;
+	text-align: center;
+}
+
+#hello {
+  position: center;
+  margin: 50px;
+  padding: 30px;
+}
+
+
+.button1 {
+background-color: rgb(213, 143, 118);
+    color: white; 
+}
+
+.button1:hover {  /*color changes as the user hovers over the buttons*/
+    background-color: rgb(161, 85, 71);
+    color: white;
+}
+
+.button2 {
+background-color: rgb(213, 143, 118);
+    color: white; 
+}
+
+.button2:hover {
+    background-color: rgb(161, 85, 71);
+    color: white;
+}
+
+.button3 {
+background-color: rgb(213, 143, 118);
+    color: white; 
+}
+
+.button3:hover {
+    background-color: rgb(161, 85, 71);
+    color: white;
+}
+
+.button4 {
+background-color: rgb(213, 143, 118);
+    color: white; 
+}
+
+.button4:hover {
+    background-color: rgb(161, 85, 71);
+	color: white;
+}
+
+.button5 {
+background-color: rgb(213, 143, 118);
+    color: white; 
+}
+
+.button5:hover {
+    background-color: rgb(161, 85, 71);
+  color: white;
+}
+
+.button6 {
+background-color: rgb(213, 143, 118);
+    color: white; 
+}
+
+.button6:hover {
+    background-color: rgb(161, 85, 71);
+  color: white;
+}
+
+.text-container{
+	background-color: rgb(213, 143, 118);
+	position: center;
+	height: 50px; 
+  width: 100%;
+  display: table;
+  font-size: 30px;
+}
+
+.image-container{
+    background-color: rgb(247, 243, 219);
+    background-image: url("notebook.jpg");
+    padding: 100px;
+  }
+
+  img { /*stick figure*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}

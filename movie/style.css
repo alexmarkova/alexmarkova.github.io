@@ -1,0 +1,197 @@
+/* Alex's 30MFF website styling. The Hunger Games. */
+
+html,body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+	font-size:18px;
+}
+
+img { /*picture of our main actor*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 68%;
+}
+
+iframe { /*youtube video*/
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+/*    margin-top: auto;
+    margin-bottom: auto;*/
+    width: 50%;
+    height: 50%;
+    position: center;
+    margin-top: 100px;
+}
+
+
+button { /* There is a problem here with their width when the window size is changed, 
+	white space appears on the right end. I think it has to do something with the margin*/
+	font-family: 'Karla', sans-serif;
+	font-size: 16px;
+	width: 33.5%;
+/*	padding: 5px 0;*/
+	background-color: rgb(56, 98, 255); 
+    border: none;
+    padding: 30px 10px;
+    text-align: center;
+    text-decoration: none;
+    margin: 0px -3px;
+    -webkit-transition-duration: 0.4s; /* used a hover tutorial */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+
+*, /*here goes styling for the scroll down button...*/
+:after,
+:before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  height: 30vh; /*size according to screen resolution*/
+  width: 100%;
+  display: table;
+  
+}
+
+p{
+  color: rgb(68, 34, 182);
+  font-family: 'Karla', sans-serif;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 30px;
+}
+
+.scroll-down {
+  opacity: 1;
+  -webkit-transition: all .5s ease-in 3s;
+  transition: all .5s ease-in 3s;
+}
+
+.scroll-down {
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  margin-left: -16px;
+  display: block;
+  width: 32px;
+  height: 32px;
+  border: 2px solid rgb(68, 34, 182);
+  background-size: 14px auto;
+  border-radius: 50%;
+  z-index: 2;
+  -webkit-animation: bounce 2s infinite 2s;
+  animation: bounce 2s infinite 2s;
+  -webkit-transition: all .2s ease-in;
+  transition: all .2s ease-in;
+}
+
+.scroll-down:before {
+    position: absolute;
+    top: calc(50% - 8px);
+    left: calc(50% - 6px);
+    transform: rotate(-45deg);
+    display: block;
+    width: 12px;
+    height: 12px;
+    content: "";
+    border: 2px solid rgb(68, 34, 182);
+    border-width: 0px 0 2px 2px;
+}
+
+@keyframes bounce { /*animanted (bouncing) scroll button*/
+  0%,
+  100%,
+  20%,
+  50%,
+  80% {
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+  60% {
+    -webkit-transform: translateY(-5px);
+    -ms-transform: translateY(-5px);
+    transform: translateY(-5px);
+  }
+}
+
+.award-container {
+	width:100%;
+	background-color: rgb(68, 34, 182);
+}
+
+.award {
+	background-color: rgb(68, 34, 182);
+	font-size: 20px;
+	font-family:'Karla', sans-serif;
+	color: rgb(0, 240, 255);
+	padding: 20px 20px;
+	text-align: center;
+}
+
+.image-container{
+  background: linear-gradient(-130deg, rgb(110, 255, 216), rgb(180,195,255), rgb(140, 150, 255));
+}
+
+.button1 {
+    background-color: rgb(56, 98, 255); 
+    color: white; 
+}
+
+.button1:hover {  /*color changes as the user hovers over the buttons*/
+    background-color: rgb(0, 240, 255);
+    color: rgb(56, 98, 255);
+}
+
+.button2 {
+    background-color: rgb(56, 98, 255); 
+    color: white;
+}
+
+.button2:hover {
+    background-color: rgb(0, 240, 255);
+    color: rgb(56, 98, 255);
+}
+
+.button3 {
+    background-color: rgb(56, 98, 255); 
+    color: white; 
+}
+
+.button3:hover {
+    background-color: rgb(0, 240, 255);
+    color: rgb(56, 98, 255);
+}
+
+.button4 {
+    background-color: rgb(56, 98, 255);
+    color: white;
+}
+
+.button4:hover {
+	background-color: rgb(0, 240, 255);
+	color: rgb(56, 98, 255);
+}
+
+
+.video-container{
+	background-color: rgb(205, 216, 255);
+	position: center;
+/*	padding: 50px;*/
+	height: 100vh; /*size according to screen resolution*/
+  width: 100%;
+  display: table;
+}
